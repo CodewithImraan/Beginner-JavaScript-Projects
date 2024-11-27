@@ -1,0 +1,28 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+#counting {
+  display: block;
+  text-align: center;
+  font-size: 8rem;
+  color: red;
+}
+
+div {
+  text-align: center;
+}
+.btn {
+  font-size: 1.2rem;
+  border-radius: 20px;
+  padding: 12px;
+  border: none;
+  margin: 2px;
+  background: #000;
+  color: white;
+  transition: background 0.3s ease-in-out;
+}
+.btn:hover {
+  background: #611010;
+}
