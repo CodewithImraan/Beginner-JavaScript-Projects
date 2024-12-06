@@ -1,19 +1,19 @@
 
 const counting = document.getElementById('counting') ;
-const bada = document.getElementById('bada') ;
-const ghata = document.getElementById('ghata') ;
-const mat = document.getElementById('mat') ;
+const increase = document.getElementById('increase') ;
+const decrease = document.getElementById('decrease') ;
+const reset = document.getElementById('reset') ;
 let count = 0;
 
-bada.onclick = function (){
+increase.onclick = function (){
     count++;
     counting.textContent = count;
 }
-ghata.onclick = function (){
+decrease.onclick = function (){
     count--;
     counting.textContent = count;
 }
-mat.onclick = function (){
+reset.onclick = function (){
     count=0;
     counting.textContent = count;
 }
