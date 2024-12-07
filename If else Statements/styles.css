@@ -1,0 +1,27 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper {
+  width: 700px;
+  height: 300px;
+  text-align: center;
+  background: #2c2c2c;
+  color: white;
+  font-size: 3em;
+  padding: 30px;
+  box-shadow: 2px 2px 10px black;
+}
+input {
+  outline: none;
+  font-size: 1.7rem;
+  font-style: italic;
+  background: #b28b8b;
+  color: white;
+  border: none;
+  font-weight: 800;
+  padding: 10px;
+}
