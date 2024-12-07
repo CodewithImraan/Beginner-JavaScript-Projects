@@ -1,0 +1,9 @@
+.wrapper{
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid red;
+    color: rgb(255, 255, 255);
+    background: rgb(145, 54, 42);
+    padding: 20px;
+    margin: 30px;
+}
