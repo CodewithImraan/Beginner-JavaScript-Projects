@@ -1,1 +1,2 @@
 # Beginner-JavaScript-Projects
+hi
